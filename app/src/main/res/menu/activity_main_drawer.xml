@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/update_client"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Client KYC" />
+        <item
+            android:id="@+id/update_Site"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Site KYC" />
+        <item
+            android:id="@+id/enquiry"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Enquiry" />
+        <item
+            android:id="@+id/check_in"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Check In" />
+
+        <item
+            android:id="@+id/check_out"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Check Out" />
+
+        <item
+            android:id="@+id/Visit_summary"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Site Visit Summary" />
+
+
+    </group>
+
+
+
+</menu>

@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="10"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:id="@+id/Sitename"
+        android:layout_weight="1"
+        android:text="Site Name"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/checkin"
+        android:layout_weight="0.75"
+        android:text="Check IN"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/gpssetting"
+        android:layout_weight="0.75"
+        android:text="Update Location"/>
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/clientkyc"
+        android:layout_weight="0.75"
+        android:text="Client KYC"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/sitekyc"
+        android:layout_weight="0.75"
+        android:text="Site KYC"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/enquiry"
+        android:layout_weight="0.75"
+        android:text="Enquiry"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/placeorder"
+        android:layout_weight="0.75"
+        android:text="Place Order"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:id="@+id/report"
+        android:text="Reports"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:id="@+id/bills"
+        android:text="Bills"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:id="@+id/sitevisitlog"
+        android:text="Site Visit Log"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:id="@+id/checkout"
+        android:text="Check Out"/>
+
+
+
+
+
+
+
+    <!--<Button-->
+        <!--android:id="@+id/saleshistory"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Sales Engineer History" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/logoutbutton"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="LOG OUT" />-->
+
+</LinearLayout>

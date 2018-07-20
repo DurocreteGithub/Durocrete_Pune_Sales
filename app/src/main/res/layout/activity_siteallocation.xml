@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_sites"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/AddnewSite"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_weight="0.1"
+        android:background="@drawable/login_button_selector"
+        android:text="Add New Site" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saleshistory"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/login_button_selector"
+            android:text="Sales Engineer History" />
+
+        <Button
+            android:id="@+id/logoutbutton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/login_button_selector"
+            android:text="Log Out" />
+
+    </LinearLayout>
+
+</LinearLayout>
